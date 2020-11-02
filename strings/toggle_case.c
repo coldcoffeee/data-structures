@@ -2,7 +2,7 @@
 
 int main()
 {
-	char name[] = "mOHIT gUPTA";
+	char name[] = "mILLIE bOBBY bROWN";
 	int i;
 	for(i=0;i<11;i++)
 	{

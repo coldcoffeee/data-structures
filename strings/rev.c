@@ -3,7 +3,7 @@ int main()
 {
 	char S[30],t;
 	printf("Enter a sentence: ");
-	scanf("%s",S);
+	scanf("%[^\n]s",S);
 	int i,j;
 	for(i=0;S[i]!='\0';i++);
 	i--;
