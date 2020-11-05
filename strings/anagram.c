@@ -1,3 +1,4 @@
+//program fails if length of the string is same and letters are repeating
 #include<stdio.h>
 
 // two words are anagram if they have same letters e.g. medical & decimal
@@ -24,6 +25,11 @@ int main()
 		HA |= x;
 		HB |= y;
 
+	}
+	if(A[i]!=B[i])
+	{
+		printf("\nStrings are unequal in length.");
+		return 0;
 	}
 	
 	if(HA == HB)
