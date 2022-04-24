@@ -1,0 +1,12 @@
+tree traversals: BFS and DFS
+
+DFS:
+    Inorder(left root right)
+
+    Preorder(root left right)
+    
+    Postorder(left right root)
+
+BFS:
+    level order - write each level left to right
+
